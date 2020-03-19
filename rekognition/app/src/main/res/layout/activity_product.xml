@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#002196F3"
+    tools:context=".ProductActivity">
+
+    <ListView
+        android:id="@+id/theList"
+        android:layout_width="match_parent"
+        android:layout_height="616dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="0dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_toStartOf="@+id/refresh"
+        android:orientation="horizontal" />
+
+    <Button
+        android:id="@+id/refresh"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/refresh_layout"/>
+
+
+
+</RelativeLayout>

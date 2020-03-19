@@ -1,0 +1,17 @@
+{
+	"auth": {
+		"rekognition889130e1": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	},
+	"predictions": {
+		"idEntities": {
+			"providerPlugin": "awscloudformation",
+			"service": "Rekognition",
+			"dependsOn": [],
+			"identifyType": "identifyEntities"
+		}
+	}
+}
