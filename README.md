@@ -1,2 +1,10 @@
 # rekognition-app
-Software Engineering class
+
+Software Engineering Group Project
+
+Technologies Used:
+
+AWS rekognition API
+AWS Lambda
+barcodeLoookup API
+Android Studios
