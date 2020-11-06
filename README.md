@@ -1,6 +1,6 @@
 # rekognition-app
 
-Software Engineering Group Project
+Big Project
 
 Technologies Used:
 
